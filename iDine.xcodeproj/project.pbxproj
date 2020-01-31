@@ -15,6 +15,10 @@
 		1CEC12F923E47F2B001391BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CEC12F723E47F2B001391BF /* LaunchScreen.storyboard */; };
 		1CEC130423E47F2C001391BF /* iDineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC130323E47F2C001391BF /* iDineTests.swift */; };
 		1CEC130F23E47F2C001391BF /* iDineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC130E23E47F2C001391BF /* iDineUITests.swift */; };
+		1CEC131D23E47FD2001391BF /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC131C23E47FD2001391BF /* Helper.swift */; };
+		1CEC132023E48019001391BF /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC131E23E48019001391BF /* Menu.swift */; };
+		1CEC132123E48019001391BF /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC131F23E48019001391BF /* Order.swift */; };
+		1CEC132323E4803E001391BF /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CEC132223E4803E001391BF /* menu.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		1CEC130A23E47F2C001391BF /* iDineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CEC130E23E47F2C001391BF /* iDineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineUITests.swift; sourceTree = "<group>"; };
 		1CEC131023E47F2C001391BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CEC131C23E47FD2001391BF /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1CEC131E23E48019001391BF /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		1CEC131F23E48019001391BF /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		1CEC132223E4803E001391BF /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,10 @@
 				1CEC12F223E47F2B001391BF /* Assets.xcassets */,
 				1CEC12F723E47F2B001391BF /* LaunchScreen.storyboard */,
 				1CEC12FA23E47F2B001391BF /* Info.plist */,
+				1CEC131E23E48019001391BF /* Menu.swift */,
+				1CEC131F23E48019001391BF /* Order.swift */,
+				1CEC132223E4803E001391BF /* menu.json */,
+				1CEC131C23E47FD2001391BF /* Helper.swift */,
 				1CEC12F423E47F2B001391BF /* Preview Content */,
 			);
 			path = iDine;
@@ -242,6 +254,7 @@
 			files = (
 				1CEC12F923E47F2B001391BF /* LaunchScreen.storyboard in Resources */,
 				1CEC12F623E47F2B001391BF /* Preview Assets.xcassets in Resources */,
+				1CEC132323E4803E001391BF /* menu.json in Resources */,
 				1CEC12F323E47F2B001391BF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CEC132123E48019001391BF /* Order.swift in Sources */,
 				1CEC12ED23E47F2A001391BF /* AppDelegate.swift in Sources */,
 				1CEC12EF23E47F2A001391BF /* SceneDelegate.swift in Sources */,
 				1CEC12F123E47F2A001391BF /* ContentView.swift in Sources */,
+				1CEC131D23E47FD2001391BF /* Helper.swift in Sources */,
+				1CEC132023E48019001391BF /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
